@@ -1,0 +1,40 @@
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.tabs {
+}
+.tabs__nav {
+}
+.tabs-nav {
+   display: flex;
+   justify-content: space-between;
+}
+.tabs-nav__item {
+   flex: 1 0 auto;
+   padding: 20px;
+   border-bottom: 1px solid transparent;
+   cursor: pointer;
+}
+.tabs-nav__item.is-active {
+   border-color: #55a32a;
+}
+.is-active {
+}
+.tabs__content {
+}
+.tab {
+   display: none;
+}
+.tab.is-active {
+   display: block;
+   padding: 20px;
+   background-color: #f2f2f2;
+}
+.tab-1 {
+}
+.tab-2 {
+}
+.tab-3 {
+}
